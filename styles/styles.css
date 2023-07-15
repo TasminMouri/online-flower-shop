@@ -18,7 +18,24 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 24px;
+}
 /* header-related-styles */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
 /* nav-related-styles */
 nav{
     display: flex;
@@ -66,4 +83,45 @@ img{
 .banner-description{
     color: #272727;
      margin-bottom: 32px;
+}
+/* main related styles */
+/* featured flowers section styles */
+.flowers{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+.flower-1{
+    width: 200px;
+    height: 280px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 76px;
+}
+.flower-2{
+    width: 220px;
+    height: 220px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 50px 51px 50px;
+}
+.flower-3{
+    width: 200px;
+    height: 320px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
+.pink-flower{
+    display: flex;
+    justify-content: space-evenly;
+    color: #272727;
+    font-weight: 700;
+    text-decoration-line: underline;
+    width: 85%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 20px;
 }
