@@ -88,10 +88,9 @@ img{
 /* featured flowers section styles */
 .flowers{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 70%;
-    margin: 0 auto;
 }
 .flower-1{
     width: 200px;
@@ -129,8 +128,9 @@ img{
 .hot-deal{
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 200px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     padding: 100px;
@@ -139,3 +139,13 @@ img{
     width: 400px;
     height: 450px;
     }
+    /* instragram-section-styles */
+.picture{
+    width: 300px;
+    height: 350px;
+}
+.instragram-pictures{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
