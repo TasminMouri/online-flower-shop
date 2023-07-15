@@ -125,3 +125,17 @@ img{
     list-style: none;
     padding: 20px;
 }
+/* hot deal section styles */
+.hot-deal{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px;
+}
+.rose{
+    width: 400px;
+    height: 450px;
+    }
